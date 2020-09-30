@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         btnIncrementar.setOnClickListener{
             contador++
             tvContador.text = "$contador"
+            //comentario nuevo
         }
 
 
